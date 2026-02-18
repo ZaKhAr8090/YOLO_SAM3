@@ -10,7 +10,7 @@
  [SAM3 + YOLO Segmentation Notebook](https://www.kaggle.com/code/roadwarrior23513245r/3-sam3-yolo-seg)
 
 Тестирование проводилось на датасетах:
-* **WaRP (Waste Recycling Plant)** – 25 тыс. изображений отходов.
+* **[![Kaggle](https://example.com/badge.svg)](https://ссылка)  – 25 тыс. изображений отходов.
 * **Animal Image Dataset** – 103 изображения (кошки, собаки, лисы).
 
 ## Основные возможности
