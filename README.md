@@ -10,8 +10,24 @@
  [SAM3 + YOLO Segmentation Notebook](https://www.kaggle.com/code/roadwarrior23513245r/3-sam3-yolo-seg)
 
 Тестирование проводилось на датасетах:
-* **[![Kaggle](https://example.com/badge.svg)](https://ссылка)  – 25 тыс. изображений отходов.
+* **[WaRP - Waste Recycling Plant Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset)  – 25 тыс. изображений отходов.
 * **Animal Image Dataset** – 103 изображения (кошки, собаки, лисы).
+
+# WaRP Dataset: Waste Recycling Plant Detection
+
+## 📊 Обзор датасета
+
+| Часть | Задача | Train | Valid/Test | Разрешение |
+|-------|--------|-------|------------|------------|
+| **WaRP-D** | Detection | 2452 | 522 | 1920×1080 |
+| **WaRP-C** | Classification | 8823 | 1583 | 40-703×35-668 |
+| **WaRP-S** | Segmentation | 112 | - | 100×96 до 412×510 |
+
+## 🔗 Ссылки на данные
+- [WaRP-D Detection](https://www.kaggle.com/datasets/warp-detection) — аннотации bbox в .txt
+- [WaRP-C Classification](https://www.kaggle.com/datasets/warp-classification) — несбалансированные классы
+- [WaRP-S Segmentation](https://www.kaggle.com/datasets/warp-segmentation) — деформированные объекты
+
 
 ## Основные возможности
 * **Гибридный пайплайн:** YOLO12s генерирует bounding box'ы и начальные маски сегментации, SAM3 выполняет их уточнение для повышения качества.
