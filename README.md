@@ -76,3 +76,4 @@
 
 В планах — собрать все полученные маски, вручную или автоматически их скорректировать и использовать для обучения более легкой и быстрой версии — YOLO11s-seg.
 
+* **[Ссылка на Kaggle ноутбук]([https://www.kaggle.com/datasets/snmahsa/animal-image-dataset-cats-dogs-and-foxes](https://www.kaggle.com/code/roadwarrior23513245r/3-sam3-yolo-seg/notebook))**
